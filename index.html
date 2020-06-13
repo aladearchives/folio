@@ -14,24 +14,27 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link href="https://fonts.googleapis.com/css2?family=Karla&family=Work+Sans:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/segoe-fonts@1.0.1/segoe-fonts.min.css">
+    <!--Animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md fixed-top" style="background-color: #fff;">
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #fff;">
         <div class="container">
             <a class="navbar-brand ml-5" href="#"><img class="img-fluid w-75" alt="folio logo"
                     src="./images/folio.svg" /></a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                aria-label="Toggle navigation"></button>
+                aria-label="Toggle navigation"><img src="./images/menu.svg" />
+            </button>
             <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
                 <ul class="nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Why folio? <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#why">Why folio? <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">How it works</a>
+                        <a class="nav-link" href="#how">How it works</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">T&Cs</a>
@@ -50,26 +53,34 @@
 
             <div class="col-lg-6 my-auto">
                 <div class="row">
-                    <div class="home-content offset-lg-1 col-lg-10">
-                        <h1 class="pb-3 text-left">They ask for experience to give you work and you need work to gain
+                    <div class="home-content offset-lg-1 col-lg-10 overflow-hidden">
+                        <h1 class="pt-4 pb-3 text-left wow  animated  slideInLeft">They ask for
+                            experience
+                            to give you work and you need work to
+                            gain
                             experience
                         </h1>
-                        <p class="pb-3 text-left">Join foilo community and connect with individuals to build your career
+                        <p class="pb-3 text-left wow  animated  slideInLeft  delay-1s">Join
+                            foilo
+                            community
+                            and connect with individuals to build your career
                             portfolio, by working on non-occupational yet
                             exciting projects.</p>
-                        <button class="btn btn-lg">Join Community</button>
+                        <button class="btn btn-lg wow  animated  zoomIn  delay-2s">Join
+                            Community</button>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 mt-5 py-5 pl-5">
-                <img class="img-fluid" alt="collaborative developers" src="./images/Group-47.svg" />
+                <img class="wow  animated  zoomIn img-fluid" alt="collaborative developers"
+                    src="./images/Group-47.svg" />
             </div>
         </div>
     </section>
     <!-- Why -->
     <section class="container pb-5 why-join">
-        <div class="row mt-5">
-            <h1 class="text-left why">Why Join Folio?
+        <div class="row mt-5 overflow-hidden">
+            <h1 class="text-left pt-5 wow  animated  slideInRight" id="why">Why Join Folio?
             </h1>
             <div class="row">
                 <div class="col-lg-6 mt-5 pb-2 pl-5">
@@ -79,13 +90,15 @@
                     <div class="row">
                         <div class="home-content offset-lg-1 col-lg-10">
 
-                            <p class="pb-3 text-left">We believe that everyone, including those who are not yet
+                            <p class="pb-3 text-left wow  animated  slideInRight  delay-1s">We
+                                believe that everyone, including those who are not yet
                                 gainfully
                                 employed, or are not well exposed to meaningful
                                 projects in the corporate world, deserve a shot in working on and bringing meaningful
                                 ideas
                                 and projects to life.</p>
-                            <p class="pb-3 text-left">Folio
+                            <p class="pb-3 text-left wow  animated  slideInRight  delay-1s">
+                                Folio
                                 fills this gap by creating an opportunity for individuals to work on non-occupational
                                 yet
                                 exciting projects, to help
@@ -93,7 +106,8 @@
                                 samples
                                 from a project anywhere and
                                 with anyone as there are no non-disclosure agreements.</p>
-                            <button class="btn btn-lg">Join Community</button>
+                            <button class="btn btn-lg wow  animated  zoomIn  delay-2s">Join
+                                Community</button>
                         </div>
                     </div>
                 </div>
@@ -105,7 +119,7 @@
     <section class="services">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center wow  animated  zoomIn">
                     <div>
                         <img class="services-image" src="./images/quality.svg">
                     </div>
@@ -115,7 +129,7 @@
                         and use them
                         to bring ideas to life.</p>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center wow  animated  zoomIn">
                     <div>
                         <img class="services-image" src="./images/professional-portfolio.svg">
                     </div>
@@ -124,7 +138,7 @@
                         leadership, teamwork and
                         technical skills.</p>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center wow  animated  zoomIn">
                     <div>
                         <img class="services-image" src="./images/reading-book.svg">
                     </div>
@@ -139,7 +153,7 @@
     <!-- How folio works -->
     <section class="works">
         <div class="container">
-            <h1 class="pb-5">How Folio Works</h1>
+            <h1 class="py-5" id="how">How Folio Works</h1>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="row">
@@ -237,11 +251,11 @@
     <!-- Call to Action -->
     <section class="call-to-action py-5">
         <div class="container text-center w-50">
-            <h2 class="py-3">Learn . Build . Prepare . Have fun</h2>
+            <h2 class="py-3  slideInDown wow  animated">Learn . Build . Prepare . Have fun</h2>
             <p class="py-3">You need experience to get work, the problem is you need work to gain experience. Join
                 foilio and gain real work
                 experience working on interesting real world projects</p>
-            <button class="btn btn-lg">Join Community</button>
+            <button class="btn btn-lg wow  animated  zoomIn  delay-2s">Join Community</button>
         </div>
     </section>
     <!-- footer -->
@@ -292,6 +306,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <!--Wow.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script>
+        new WOW().init();
+
+    </script>
 </body>
 
 </html>
