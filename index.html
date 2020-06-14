@@ -26,7 +26,7 @@
                     src="./images/folio.svg" /></a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                aria-label="Toggle navigation"><img src="./images/menu.svg" />
+                aria-label="Toggle navigation"><img src="./images/x.svg" />
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
                 <ul class="nav">
@@ -53,7 +53,7 @@
 
             <div class="col-lg-6 my-auto">
                 <div class="row">
-                    <div class="home-content offset-lg-1 col-lg-10 overflow-hidden">
+                    <div id="home-container" class="home-content offset-lg-1 col-lg-10 overflow-hidden">
                         <h1 class="pt-4 pb-3 text-left wow  animated  slideInLeft">They ask for
                             experience
                             to give you work and you need work to
@@ -79,47 +79,51 @@
     </section>
     <!-- Why -->
     <section class="container pb-5 why-join">
-        <div class="row mt-5 overflow-hidden">
-            <h1 class="text-left pt-5 wow  animated  slideInRight" id="why">Why Join Folio?
-            </h1>
-            <div class="row">
-                <div class="col-lg-6 mt-5 pb-2 pl-5">
-                    <img class="img-fluid" alt="why folio?" src="./images/Layer_x0020_1.svg" />
-                </div>
-                <div class="col-lg-6 my-auto">
-                    <div class="row">
-                        <div class="home-content offset-lg-1 col-lg-10">
+        <div class="row mt-5">
+            <div class="col-lg-6 my-auto why-small">
 
-                            <p class="pb-3 text-left wow  animated  slideInRight  delay-1s">We
-                                believe that everyone, including those who are not yet
-                                gainfully
-                                employed, or are not well exposed to meaningful
-                                projects in the corporate world, deserve a shot in working on and bringing meaningful
-                                ideas
-                                and projects to life.</p>
-                            <p class="pb-3 text-left wow  animated  slideInRight  delay-1s">
-                                Folio
-                                fills this gap by creating an opportunity for individuals to work on non-occupational
-                                yet
-                                exciting projects, to help
-                                develop their skills and build up their portfolios. Individuals can share their work
-                                samples
-                                from a project anywhere and
-                                with anyone as there are no non-disclosure agreements.</p>
-                            <button class="btn btn-lg wow  animated  zoomIn  delay-2s">Join
-                                Community</button>
-                        </div>
+                <div class="row">
+                    <div class="why-head offset-lg-1 col-lg-10 overflow-hidden pb-2">
+                        <h1 class="text-left wow  animated  slideInRight" id="why">Why Join Folio?
+                        </h1>
+                        <img class="py-2 img-fluid why-image" alt="why folio?" src="./images/Layer_x0020_1.svg" />
                     </div>
                 </div>
 
             </div>
+            <div class="col-lg-6 mt-5 py-5 pl-5 why-top">
+                <div class="row">
+                    <div class="home-content offset-lg-1 col-lg-10">
+
+                        <p class="pb-3 text-left wow  animated  slideInRight  delay-1s">We
+                            believe that everyone, including those who are not yet
+                            gainfully
+                            employed, or are not well exposed to meaningful
+                            projects in the corporate world, deserve a shot in working on and bringing meaningful
+                            ideas
+                            and projects to life.</p>
+                        <p class="pb-3 text-left wow  animated  slideInRight  delay-1s">
+                            Folio
+                            fills this gap by creating an opportunity for individuals to work on non-occupational
+                            yet
+                            exciting projects, to help
+                            develop their skills and build up their portfolios. Individuals can share their work
+                            samples
+                            from a project anywhere and
+                            with anyone as there are no non-disclosure agreements.</p>
+                        <button class="btn btn-lg wow  animated  zoomIn  delay-2s">Join
+                            Community</button>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
     <!-- Services -->
     <section class="services">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4 text-center wow  animated  zoomIn">
+            <div class="row px-5">
+                <div class="col-md-4 text-center wow animated zoomIn">
                     <div>
                         <img class="services-image" src="./images/quality.svg">
                     </div>
@@ -151,12 +155,12 @@
         </div>
     </section>
     <!-- How folio works -->
-    <section class="works">
-        <div class="container">
-            <h1 class="py-5" id="how">How Folio Works</h1>
+    <section class="works pb-5 pl-4">
+        <div class="container pb-4 px-5" id="how">
+            <h1 class="py-5">How Folio Works</h1>
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="row">
+                    <div class="row card-row">
                         <div class="col-sm-2">
                             <div class="card" style="width: 3rem;">
                                 <div class="card-body px-0 py-0">
@@ -177,7 +181,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="row">
+                    <div class="row card-row">
                         <div class="col-sm-2">
                             <div class="card" style="width: 3rem;">
                                 <div class="card-body px-0 py-0">
@@ -203,7 +207,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="row">
+                    <div class="row card-row">
                         <div class="col-sm-2">
                             <div class="card" style="width: 3rem;">
                                 <div class="card-body px-0 py-0">
@@ -224,7 +228,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="row pt-5">
+                    <div class="row pt-5 card-row">
                         <div class="col-sm-2">
                             <div class="card" style="width: 3rem;">
                                 <div class="card-body px-0 py-0">
@@ -259,13 +263,16 @@
         </div>
     </section>
     <!-- footer -->
-    <footer class="footer container-fluid pt-3">
-        <div class="row">
-            <div class="footer-social col mt-5 ml-5">
+    <footer class="footer container-fluid px-5 pt-3">
+        <div class="row px-5 pt-4">
+            <div class="footer-social col mt-1 ml-5">
                 <dl>
-                    <dt class="py-1"><img class="pr-1" src="./images/instagram.svg">Instagram</dt>
-                    <dt class="py-1"><img class="pr-1" src="./images/twitter.svg">Twitter</dt>
-                    <dt class="py-1"><img class="pr-1" src="./images/facebook.svg">Facebook</dt>
+                    <img class="pr-1"
+                        style="position:relative; left:9px; top:-10px; width:90px; height:50px; border:none;"
+                        src=" ./images/Layer_x0020_1.svg">
+                    <dt class="py-1"><img class="pr-1" src="./images/instagram-16.png">Instagram</dt>
+                    <dt class="py-1"><img class="pr-1" src="./images/twitter-16.png">Twitter</dt>
+                    <dt class="py-1"><img class="pr-1" src="./images/facebook-16.png">Facebook</dt>
                 </dl>
             </div>
             <div class="footer-joiners col">
@@ -277,7 +284,7 @@
                     <dt class="py-1">Product Managers</dt>
                 </dl>
             </div>
-            <div class="footer-joiners mt-4 col">
+            <div class="footer-joiners footer-small mt-4 col">
                 <dl>
                     <dt class="py-1">Developers</dt>
                     <dt class="py-1">Content Writers</dt>
