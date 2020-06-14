@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body,
 .why {
@@ -45,6 +45,7 @@ dt {
 #nav-button:hover {
   background-color: #fff;
   color: #153e5c;
+  border: 2px solid #153e5c;
 }
 .btn:active,
 #nav-button:active {
@@ -70,6 +71,13 @@ dt {
   border: none;
 }
 
+.works {
+  background-color: #e1f3fc59;
+}
+.navbar {
+  border-bottom: 1px solid #f1eded;
+}
+
 @media (max-width: 900px) {
   .call-to-action .container {
     width: 100% !important;
@@ -79,5 +87,57 @@ dt {
     width: 100%;
     padding: 10px 0px;
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .why-head {
+    padding-left: 36px !important;
+  }
+  .why-image {
+    display: none;
+  }
+  .why-top {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+  .footer {
+    padding: 0 !important;
+  }
+
+  .footer-social {
+    margin-left: 0 !important;
+  }
+  .footer-small {
+    margin-top: 0 !important;
+  }
+  .card-row {
+    padding-top: 10px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .why-head {
+    padding-left: 36px !important;
+  }
+  .why-image {
+    display: none;
+  }
+  .why-top {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+  .home-content {
+    padding-left: 26px !important;
+  }
+  #why {
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+  #home-container {
+    margin-left: 26px;
+  }
+  #how {
+    padding-left: 26px !important;
   }
 }
