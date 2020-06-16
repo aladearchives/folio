@@ -1,6 +1,10 @@
 html {
   scroll-behavior: smooth;
 }
+iframe::-webkit-scrollbar {
+  display: none;
+}
+
 body,
 .why {
   font-family: "Karla", sans-serif;
