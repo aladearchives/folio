@@ -1,7 +1,6 @@
 html {
   scroll-behavior: smooth;
 }
-
 body,
 .why {
   font-family: "Karla", sans-serif;
@@ -10,6 +9,9 @@ h1,
 h2,
 h4 {
   font-family: "Work Sans", sans-serif;
+}
+iframe {
+  margin-bottom: 3.5rem;
 }
 .services-image {
   max-width: 20%;
