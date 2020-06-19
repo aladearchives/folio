@@ -94,9 +94,6 @@ dt {
 }
 
 @media only screen and (max-width: 500px) {
-  .why-head {
-    padding-left: 36px !important;
-  }
   .why-image {
     display: none;
   }
@@ -117,11 +114,18 @@ dt {
   .card-row {
     padding-top: 10px !important;
   }
+  #footer {
+    margin-right: 0px;
+  }
+  .card-box {
+    padding-bottom: 10px !important;
+  }
 }
 
 @media (max-width: 800px) {
   .why-head {
     padding-left: 36px !important;
+    padding-right: 36px !important;
   }
   .why-image {
     display: none;
@@ -129,9 +133,14 @@ dt {
   .why-top {
     margin-top: 0 !important;
     padding-top: 0 !important;
+    padding-right: 48px !important;
+  }
+  .works {
+    padding-right: 24px !important;
   }
   .home-content {
     padding-left: 26px !important;
+    padding-right: 26px !important;
   }
   #why {
     margin-left: 10px;
@@ -139,8 +148,21 @@ dt {
   }
   #home-container {
     margin-left: 26px;
+    margin-right: 26px;
   }
   #how {
     padding-left: 26px !important;
+  }
+  #img-join {
+    padding-right: 48px;
+  }
+  #img-main {
+    padding-right: 48px !important;
+  }
+  .card-row {
+    padding-bottom: 10px !important;
+  }
+  #spec-box {
+    padding-top: 0px !important;
   }
 }
