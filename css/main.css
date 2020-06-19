@@ -12,6 +12,7 @@ h4 {
 }
 iframe {
   margin-bottom: 3.5rem;
+  height: 6230px;
 }
 .services-image {
   max-width: 20%;
@@ -91,8 +92,25 @@ dt {
     padding: 10px 0px;
     text-align: center;
   }
+  #img-main {
+    display: none;
+  }
 }
-
+@media (min-width: 400px) and (max-width: 500px) {
+  iframe {
+    height: 6709px !important;
+  }
+}
+@media (min-width: 310px) and (max-width: 350px) {
+  iframe {
+    height: 8030px !important;
+  }
+}
+@media (min-width: 700px) and (max-width: 900px) {
+  iframe {
+    height: 6030px;
+  }
+}
 @media only screen and (max-width: 500px) {
   .why-image {
     display: none;
@@ -119,6 +137,12 @@ dt {
   }
   .card-box {
     padding-bottom: 10px !important;
+  }
+  iframe {
+    height: 7110px;
+  }
+  #img-main {
+    margin-top: 0px !important;
   }
 }
 
