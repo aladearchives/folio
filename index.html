@@ -330,7 +330,35 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
     <script>
         new WOW().init();
+       
+        //Proposed menu button with animation START
+        var select = function(s) {
+            return document.querySelector(s);
+          },button = select('#menu-icons')
 
+        var buttonTl = new TimelineMax({paused:true});
+        buttonTl.to('#menu_2', 1, {
+          morphSVG:{shape:'#close_2'},
+          ease:Elastic.easeInOut
+        })
+        buttonTl.to('#menu_3', 1, {
+          morphSVG:{shape:'#close_1'},
+          ease:Elastic.easeInOut
+        })
+        buttonTl.to('#menu_1', 1, {
+          opacity: 0,
+          ease:Elastic.easeInOut
+        })
+
+        button.addEventListener('click', function() {
+          if (buttonTl.time() > 0) {
+            buttonTl.reverse();
+
+          } else {
+            buttonTl.play(0);
+          }
+        })
+        //Proposed menu button with animation END
     </script>
 </body>
 
