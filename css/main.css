@@ -25,6 +25,24 @@ iframe {
   color: white;
   margin: #153e5c;
 }
+
+/* */
+.svg {
+  color: #000;
+  font-size: 2em;
+  width: 30px;
+}
+
+.svg:hover {
+  height: 30px;
+  transition: ease-out .09s;
+}
+
+#close-svg {
+  Visibility: hidden;
+}
+/* */
+
 dt {
   font-weight: 500;
 }
@@ -190,3 +208,5 @@ dt {
     padding-top: 0px !important;
   }
 }
+
+
